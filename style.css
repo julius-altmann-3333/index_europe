@@ -36,11 +36,11 @@ select {
     height: 80px;
     float: left;
   }
-  .dropdown-content {
+  #dropdownContentEurope {
             display: none;
             margin-top: 10px;
         }
-    #toggleDropdown {
+    #toggleDropdownEurope {
             background-color: #007bff;
             color: white;
             border: none;
@@ -51,10 +51,10 @@ select {
             transition: background-color 0.3s ease;
         }
 
-        #toggleDropdown:hover {
+        #toggleDropdownEurope:hover {
             background-color: #0056b3;
         }
 
-        #toggleDropdown:active {
+        #toggleDropdownEurope:active {
             background-color: #004494;
         }
